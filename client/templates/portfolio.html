@@ -1,0 +1,26 @@
+---
+name: portfolio
+url: /portfolio
+controller: PortfolioController as portfolio
+animationIn: fadeIn
+---
+<flex-slider slide="item in portfolio.works">
+  <li>
+    <img ng-src="{{item.img}}" alt="{{item.name}} Portfolio Item {{$index + 1}}">
+  </li>
+</flex-slider>
+<!-- <div class="grid-container">
+  <div class="grid-block align-center lets-explore-title">
+    <h1>Portfolio</h1>
+  </div>
+  <div class="grid-block">
+    <article class="small-12 medium-6 large-4 grid-content portfolio-item" ng-repeat="item in portfolio.works">
+      <div class="dark card">
+        <img ng-src="{{item.img}}" alt="{{item.name}} Portfolio Item {{$index + 1}}">
+        <div class="card-section">
+          <h3>{{item.name}}</h3>
+        </div>
+      </div>
+    </article>
+  </div>
+</div> -->

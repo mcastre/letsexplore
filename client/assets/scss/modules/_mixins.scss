@@ -1,0 +1,11 @@
+@mixin respond-to( $val, $query ) {
+    @media ( $val: $query ) {
+        @content
+    }
+}
+@mixin lato-font($weight) {
+  font: {
+    family: $lato-font;
+    weight: $weight;
+  }
+}

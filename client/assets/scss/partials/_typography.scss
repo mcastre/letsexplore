@@ -1,0 +1,10 @@
+/* =========================
+    TYPOGRAPHY
+   =========================
+*/
+h1, h2, h3, h4, h5, h6 {
+  @include lato-font(200);
+}
+p, li {
+  @include lato-font(400);
+}

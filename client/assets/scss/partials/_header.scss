@@ -1,0 +1,52 @@
+/* =========================
+    HEADER STYLES
+   =========================
+*/
+#lets-explore-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    h1 {
+        color: white;
+        font-family: 'Lato';
+        text-align: center;
+        letter-spacing: 20px;
+        margin-top: 17%;
+        text-transform: uppercase;
+        font-size: 6rem;
+    }
+    h2 {
+        @extend h1;
+        font-size: 1.2rem;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .button-start {
+        border: 1px solid white;
+        background: none;
+        font-size: 1rem;
+        margin-top: 5rem;
+        font-family: 'Lato';
+        letter-spacing: 10px;
+        border-radius: 5px;
+        outline: none;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+            background: white;
+            color: $bg-dark;
+        }
+    }
+}
+.linear-graphic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    opacity: 0.3;
+    height: 700px;
+    width: 271px;
+    background: url(../img/mc-linear.svg) no-repeat;
+}

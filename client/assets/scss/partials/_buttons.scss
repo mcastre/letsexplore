@@ -1,0 +1,20 @@
+%button-white {
+  @extend .button;
+  background: white;
+  color: $charcoal;
+  border-radius: 3px;
+  max-width: 320px;
+  @include lato-font(400);
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  @include transition(all 200ms linear);
+}
+.button-white {
+  @extend %button-white;
+  &:hover,
+  &:focus {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    color: white;
+  }
+}

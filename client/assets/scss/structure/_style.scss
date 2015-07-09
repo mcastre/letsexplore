@@ -1,0 +1,74 @@
+/* =========================
+    MAIN CONTENT STYLES
+   =========================
+*/
+
+
+.covervid-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.space-bg {
+  width: 100%;
+  height: 100%;
+}
+.lets-explore-title {
+  @include respond-to(min-width, $small-screen) {
+    margin-top: 25%;
+  }
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.9rem;
+    text-align: center;
+  }
+}
+.leading-title-wrapper {
+  width: 75%;
+  margin: 1em auto;
+  .button-white {
+    padding: 1em 5.5em;
+    letter-spacing: 5px;
+    margin-top: 4rem;
+  }
+}
+.leading-title {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.portfolio-item {
+  @include breakpoint(medium up) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    border-radius: 0;
+  }
+}
+.connect-wrapper {
+  margin-top: 20%;
+}
+.connect-block-list {
+  list-style: none;
+  margin-left: 0;
+  li {
+    width: 2rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+    &:first-child {
+      margin-left: 0;
+    }
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

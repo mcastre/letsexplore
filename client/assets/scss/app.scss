@@ -1,0 +1,28 @@
+// DEFAULT
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "settings";
+@import "foundation";
+
+// MODULES
+
+@import "modules/variables";
+@import "modules/mixins";
+
+// PARTIALS
+
+@import "partials/global";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/footer";
+
+// STRUCTURE
+
+@import "structure/style";
+@import "structure/detail";
+@import "structure/responsive";
+
+// VENDOR
+
+@import "vendor/flexslider";

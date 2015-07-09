@@ -1,0 +1,25 @@
+/* =========================
+    GENERAL STYLES
+   =========================
+*/
+
+body {
+    background: $bg-dark;
+    height: 100%;
+    position: relative;
+    font {
+      family: $lato-font;
+      font-size: $base-font-size;
+    }
+}
+main {
+    position: relative;
+    z-index: 5;
+}
+figure {
+    margin: 0; // REMOVES DEFAULT MARGINS FOR HTML5 FIGURE ELEMENT
+}
+
+%clearfix {
+    clear: both;
+}
